@@ -1,6 +1,7 @@
-## AirBnB clone - The console
+# AirBnB clone - The console
 
-A command interpreter to manipulate data without a visual interface, like in a Shell (perfect for development and debugging)
+## Description 
+Command interpreter to manipulate data without a visual interface, like in a Shell (perfect for development and debugging)
 
 - Create your data model
 - Manage (create, update, destroy, etc) objects via a console / command interpreter
@@ -20,5 +21,3 @@ The console will be a tool to validate this storage engine
 ### Luz Sanchez
 - Github: zulsb
 - Twitter: @LuzSanchezB
-
-
