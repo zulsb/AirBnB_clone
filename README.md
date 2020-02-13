@@ -21,3 +21,6 @@ The console will be a tool to validate this storage engine
 ### Luz Sanchez
 - Github: [zulsb](https://github.com/zulsb)
 - Twitter: [@LuzSanchezB](https://twitter.com/LuzSanchezB)
+
+Cohort 10
+Colombia - Cali - 2020
