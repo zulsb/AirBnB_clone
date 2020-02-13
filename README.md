@@ -15,9 +15,9 @@ The console will be a tool to validate this storage engine
 
 ## Authors:
 ### Carlos Andres Garcia Morales
-- Github: agzsoftsi
-- Twitter: @karlgarmor
+- Github: [agzsoftsi](https://github.com/agzsoftsi)
+- Twitter: [@karlgarmor](https://twitter.com/karlgarmor)
 
 ### Luz Sanchez
-- Github: zulsb
-- Twitter: @LuzSanchezB
+- Github: [zulsb](https://github.com/zulsb)
+- Twitter: [@LuzSanchezB](https://twitter.com/LuzSanchezB)
