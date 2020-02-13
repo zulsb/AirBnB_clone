@@ -1,5 +1,5 @@
 # AirBnB clone - The console
-![](logo.jpg)
+![](Logo.jpg)
 ## Description 
 Command interpreter to manipulate data without a visual interface, like in a Shell (perfect for development and debugging)
 
