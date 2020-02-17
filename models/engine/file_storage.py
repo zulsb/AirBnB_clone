@@ -3,31 +3,53 @@
     Module define the FileStorage class.
 """
 import json
+from datetime import datetime
+from models.base_model import BaseModel
+from models.user import User
+from models.amenity import Amenity
+from models.city import City
+from models.place import Place
+from models.state import State
+from models.review import Review
 
 
 class FileStorage:
     """class FileStorage"""
+
     __file_path = "file.json"
     __objects = {}
+    classes = {
+            "BaseModel": BaseModel, "User": User,
+            "Amenity": Amenity, "City": City, "State": State,
+            "Place": Place, "Review": Review
+            }
 
     def all(self):
-        """Method to return dictionary """
+        """Returns dictionary"""
         return self.__objects
 
     def new(self, obj):
-        """Method to assign objects"""
+        """Assigns objects"""
         self.__objects['{}.{}'.format(obj.__class__.__name__,
-                                      obj.id)] = obj.to_dict()
+                                      obj.id)] = obj
 
     def save(self):
-        """Method write an object to a file - serialize"""
+        """Writes an object to a file"""
+        dic = {}
+        for k, v in self.__objects.items():
+            dic[k] = v.to_dict()
+
         with open(self.__file_path, "w") as f:
-            json.dump(self.__objects, f, default=str)
+            json.dump(dic, f)
 
     def reload(self):
-        """Method to retrieve objects from a file - Deserialize"""
+        """Retrieves objects from a file"""
+        new = {}
         try:
             with open(self.__file_path, "r") as f:
-                self.__objects = json.load(f)
+                new = json.load(f)
+
+                for k, v in new.items():
+                    self.__objects[k] = self.classes[v["__class__"]](**v)
         except:
             pass
