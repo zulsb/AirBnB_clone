@@ -6,7 +6,7 @@
 * [Description](https://github.com/agzsoftsi/AirBnB_clone#description)
 * [Files](https://github.com/agzsoftsi/AirBnB_clone#repository-contents)
 * [Usage](https://github.com/agzsoftsi/AirBnB_clone#usage)
-* [Installation](https://github.com/agzsoftsi/AirBnB_clone#installation)
+* [How to Install](https://github.com/agzsoftsi/AirBnB_clone#how-to-install)
 * [Example Usage](https://github.com/agzsoftsi/AirBnB_clone#example-usage)
 * [Authors](https://github.com/agzsoftsi/AirBnB_clone#authors)
 ---
@@ -21,8 +21,8 @@ Command interpreter to manipulate data without a visual interface, like in a She
 The first piece is to manipulate a powerful storage system. This storage engine will give us an abstraction between "My object" and "How they are stored and persisted". This means: from your console code (the command interpreter itself) and from the front-end and RestAPI you will build later, you won’t have to pay attention (take care) of how your objects are stored.
 
 This abstraction will also allow you to change the type of storage easily without updating all of your codebase.
-
 The console will be a tool to validate this storage engine.
+
 ---
 ### Repository contents
 AirBnB clone - The console files:
@@ -100,7 +100,7 @@ datetime(2020, 2, 19, 22, 49, 0, 939700), 'id': 'df1ca7e3-a140-4739-b4da-96f87b4
 $ echo "create User" | ./console.py
 (hbnb)063f787b-46ed-4bb8-becc-de0ffde7efed
 ```
-
+---
 ### Authors:
 #### Carlos Andres Garcia Morales
 - Github: [agzsoftsi](https://github.com/agzsoftsi)
