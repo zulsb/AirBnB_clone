@@ -49,10 +49,10 @@ AirBnB clone - The console files:
 ---
 | **Function** | **Funcionality** | **Sample Usage** |
 | -------------- | ----------------- | ----------------- |
-|EOF | Exit the program |
+|EOF | Exit the program | EOF
 |all | Prints all string representation of all instances based or not on the class name | User.all()
 |count | Returns count of objects in specified class. | User.count()
-|create | Creates a new instance of BaseModel, saves it and prints the id | create <class>
+|create | Creates a new instance of BaseModel, saves it and prints the id | create User
 |destroy | Deletes an instance based on the class name and id | User.destroy('12345')
 |help | Help function | help
 |quit | Exit the program | quit
