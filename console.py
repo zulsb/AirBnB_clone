@@ -151,5 +151,13 @@ class HBNBCommand(cmd.Cmd):
                         setattr(ins, args[2], val)
                         ins.save()
 
+    def do_count(self, arg):
+        count = 0
+        for ins in self.ins:
+            if arg in ins.__str__():
+                count += 1
+
+        print(count)
+
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
