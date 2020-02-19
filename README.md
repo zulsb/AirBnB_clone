@@ -63,7 +63,7 @@ AirBnB clone - The console files:
 ### How to Install
 Clone the repositoy below:
 ```bash
-https://github.com/agzsoftsi/AirBnB_clone.git
+git clone https://github.com/agzsoftsi/AirBnB_clone.git
 ```
 ---
 ### Example Usage
@@ -101,12 +101,12 @@ $ echo "create User" | ./console.py
 (hbnb)063f787b-46ed-4bb8-becc-de0ffde7efed
 ```
 ---
-### Authors:
+### Authors
 #### Carlos Andres Garcia Morales
 - Github: [agzsoftsi](https://github.com/agzsoftsi)
 - Twitter: [@karlgarmor](https://twitter.com/karlgarmor)
 
-#### Luz Sanchez
+#### Luz Sánchez
 - Github: [zulsb](https://github.com/zulsb)
 - Twitter: [@LuzSanchezB](https://twitter.com/LuzSanchezB)
 
