@@ -11,7 +11,7 @@
 * [Authors](https://github.com/agzsoftsi/AirBnB_clone#authors)
 ---
 
-## Description 
+### Description 
 Command interpreter to manipulate data without a visual interface, like in a Shell (perfect for development and debugging)
 
 - Create your data model.
@@ -23,8 +23,8 @@ The first piece is to manipulate a powerful storage system. This storage engine 
 This abstraction will also allow you to change the type of storage easily without updating all of your codebase.
 
 The console will be a tool to validate this storage engine.
-
-## Repository Contents
+---
+### Repository contents
 AirBnB clone - The console files:
 
 |   **File**   |   **Description**   |
@@ -42,6 +42,7 @@ AirBnB clone - The console files:
 |README.md | Readme file. |
 |AUTHORS | Autors file. |
 
+---
 ### Usage
 
 #### Basic Usage of The Console
@@ -58,11 +59,13 @@ AirBnB clone - The console files:
 |show | Prints the string representation of an instance based on the class name and id | User.show('12345')
 |update | Updates an instance based on the class name and id by adding or updating attribute | User.update('12345', {'name' : 'CarLuz'})
 
-## How to Install
+---
+### How to Install
 Clone the repositoy below:
 ```bash
 https://github.com/agzsoftsi/AirBnB_clone.git
 ```
+---
 ### Example Usage
 
 #### Interative Mode:
@@ -98,12 +101,12 @@ $ echo "create User" | ./console.py
 (hbnb)063f787b-46ed-4bb8-becc-de0ffde7efed
 ```
 
-## Authors:
-### Carlos Andres Garcia Morales
+### Authors:
+#### Carlos Andres Garcia Morales
 - Github: [agzsoftsi](https://github.com/agzsoftsi)
 - Twitter: [@karlgarmor](https://twitter.com/karlgarmor)
 
-### Luz Sanchez
+#### Luz Sanchez
 - Github: [zulsb](https://github.com/zulsb)
 - Twitter: [@LuzSanchezB](https://twitter.com/LuzSanchezB)
 
