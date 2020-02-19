@@ -51,15 +51,5 @@ class test_amenity(unittest.TestCase):
         """Test created"""
         self.assertEqual(datetime, type(self.amenity.created_at))
 
-    # def test_dictionary(self):
-    #   """Tests to_dict method"""
-    #  test_dict = self.amenity.to_dict()
-    # self.assertEqual(type(test_dict), dict)
-    # self.assertTrue('to_dict' in dir(self.amenity))
-
-    # def test_updated(self):
-    #   """Test updated"""
-    #  self.assertEqual(datetime, type(self.amenity.updated_at))
-
 if __name__ == "__main__":
     unittest.main()
