@@ -152,6 +152,7 @@ class HBNBCommand(cmd.Cmd):
                         ins.save()
 
     def do_count(self, arg):
+        """Instance count"""
         count = 0
         for ins in self.ins:
             if arg in ins.__str__():
