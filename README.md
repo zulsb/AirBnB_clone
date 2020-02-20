@@ -8,6 +8,7 @@
 * [Usage](https://github.com/agzsoftsi/AirBnB_clone#usage)
 * [How to Install](https://github.com/agzsoftsi/AirBnB_clone#how-to-install)
 * [Example Usage](https://github.com/agzsoftsi/AirBnB_clone#example-usage)
+* [Testing](https://github.com/agzsoftsi/AirBnB_clone#Testing)
 * [Authors](https://github.com/agzsoftsi/AirBnB_clone#authors)
 ---
 
@@ -99,6 +100,18 @@ datetime(2020, 2, 19, 22, 49, 0, 939700), 'id': 'df1ca7e3-a140-4739-b4da-96f87b4
 ```
 $ echo "create User" | ./console.py
 (hbnb)063f787b-46ed-4bb8-becc-de0ffde7efed
+```
+
+### Testing
+
+Unittests for the HolbertonBnB project are defined in the tests folder. To run the entire test suite simultaneously, execute the following command:
+```
+$ python3 unittest -m discover tests
+```
+
+Alternatively, you can specify a single test file to run at a time:
+```
+$ python3 unittest -m tests/test_console.py
 ```
 ---
 ### Authors
