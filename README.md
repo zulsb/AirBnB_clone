@@ -39,7 +39,7 @@ AirBnB clone - The console files:
 |review.py | A class Review that inherits from BaseModel. |
 |state.py | A class State that inherits from BaseModel. |
 |user.py | A class User that inherits from BaseModel. |
-|tests\ | Containes Unit Tests for the progect. |
+|tests\ | Contains unittests for the project. |
 |README.md | Readme file. |
 |AUTHORS | Autors file. |
 
@@ -50,15 +50,15 @@ AirBnB clone - The console files:
 ---
 | **Function** | **Funcionality** | **Sample Usage** |
 | -------------- | ----------------- | ----------------- |
-|EOF | Exit the program | EOF
-|all | Prints all string representation of all instances based or not on the class name | User.all()
-|count | Returns count of objects in specified class. | User.count()
-|create | Creates a new instance of BaseModel, saves it and prints the id | create User
-|destroy | Deletes an instance based on the class name and id | User.destroy('12345')
-|help | Help function | help
-|quit | Exit the program | quit
-|show | Prints the string representation of an instance based on the class name and id | User.show('12345')
-|update | Updates an instance based on the class name and id by adding or updating attribute | User.update('12345', {'name' : 'CarLuz'})
+|EOF | Exit the program. | EOF
+|all | Prints all string representation of all instances based or not on the class name. | User.all()
+|count | Returns count of objects. | User.count()
+|create | Creates a new instance of BaseModel, save and print the id. | create User
+|destroy | Deletes an instance based on the class name and id. | User.destroy('12345')
+|help | Help function. | help
+|quit | Exit the program. | quit
+|show | Prints the string representation of an instance based on the class name and id. | User.show('12345')
+|update | Updates an instance based on the class name and id by adding or updating attribute. | User.update('12345', {'name' : 'CarLuz'})
 
 ---
 ### How to Install
