@@ -153,12 +153,12 @@ class HBNBCommand(cmd.Cmd):
 
     def do_count(self, arg):
         """Method to count Instances"""
-        count = 0
+        con = 0
         for ins in self.ins:
             if arg in ins.__str__():
-                count += 1
+                con += 1
 
-        print(count)
+        print(con)
 
     def default(self, arg):
         """Method called input line when command prefix is not recognized."""
