@@ -49,10 +49,10 @@ class HBNBCommand(cmd.Cmd):
         elif args[0] not in self.classes:
             print("** class doesn't exist **")
         else:
-            b = self.classes[args[0]]()
-            print(b.id)
-            self.ins.append(b)
-            b.save()
+            newi = self.classes[args[0]]()
+            print(newi.id)
+            self.ins.append(newi)
+            newi.save()
 
     def do_show(self, arg):
         """Method to show Class Instance by ID #"""
@@ -152,7 +152,7 @@ class HBNBCommand(cmd.Cmd):
                         ins.save()
 
     def do_count(self, arg):
-        """Instance count"""
+        """Method to count Instances"""
         count = 0
         for ins in self.ins:
             if arg in ins.__str__():
@@ -161,6 +161,7 @@ class HBNBCommand(cmd.Cmd):
         print(count)
 
     def default(self, arg):
+        """Method called input line when command prefix is not recognized."""
         if not'.' in arg:
             print("*** Unknown syntax: " + arg)
             return False
