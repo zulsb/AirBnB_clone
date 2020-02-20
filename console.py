@@ -160,5 +160,46 @@ class HBNBCommand(cmd.Cmd):
 
         print(count)
 
+    def default(self, arg):
+        if not'.' in arg:
+            print("*** Unknown syntax: " + arg)
+            return False
+        commands1 = {
+                        "all()": self.do_all, "count()": self.do_count
+                    }
+        commands2 = {
+                        "show": self.do_show, "destroy": self.do_destroy,
+                        "update": self.do_update
+                    }
+        args = arg.split(".")
+        if len(args) != 2 or args[0] not in self.classes:
+            print("*** Unknown syntax: " + arg)
+            return False
+
+        cl = args[0]
+        if args[1] in commands1:
+            commands1[args[1]](cl)
+        else:
+            arg2 = args[1].split("(")
+
+            if len(arg2) == 1 or arg2[0] not in commands2:
+                print("*** Unknown syntax: " + arg)
+                return False
+
+            if len(arg2[1]) == 0 or arg2[1][-1] != ')':
+                print("*** Unknown syntax: " + arg)
+                return False
+
+            cm = arg2[0]
+            idn = arg2[1].split(')')
+            idc = idn[0].split(',')
+
+            if len(idn[0]) == 0:
+                print("*** Unknown syntax: " + arg)
+                return False
+            last = cl + ' ' + "".join(idc)
+
+            commands2[cm](last)
+
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
