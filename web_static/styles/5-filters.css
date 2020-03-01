@@ -1,3 +1,4 @@
+/* Filters class style */
 .filters{
 background-color: #FFFFFF;
 height: 70px;
@@ -7,6 +8,7 @@ border-radius: 4px;
 position: relative;
 }
 
+/* Button tag style */
 button{
 font-size: 18px;
 background-color: #FF5A5F;
@@ -20,10 +22,12 @@ top: 10px;
 position: absolute;
 }
 
+/* Button tag in hover style */
 button:hover{
 opacity: 90%;
 }
 
+/* Locations class style */
 .locations{
 height: 100%;
 width: 25%;
@@ -31,12 +35,14 @@ border-right: 1px solid #DDDDDD;
 display: inline-block;
 }
 
+/* Amenities class style */
 .amenities{
 height: 100%;
 width: 25%;
 display: inline-block;
 }
 
+/* Filters class style in text h3 */
 .filters div h3{
 font-weight: 600;
 padding-left: 20%;
@@ -44,6 +50,7 @@ line-height: 10%;
 margin-top: 9%;
 }
 
+/* Filters class style in text h4 */
 .filters div h4{
 font-weight: 400;
 font-size: 14px;
