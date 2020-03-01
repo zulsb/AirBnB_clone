@@ -3,10 +3,11 @@
 ---
 ### Description
 > This is the second phase of the Airbnb Clone: Web static, the HTML and CSS part. The Images
-> folder holds icons for the site (e.g. logo, bathroom icons, bedroom icons,                                            > guest icons). The Styles folder holds CSS styling files.
+> folder holds icons for the site (e.g. logo, bathroom icons, bedroom icons,
+> guest icons). The Styles folder holds CSS styling files.
 ---
 ### Repository contents
-AirBnB clone - The console files:
+AirBnB clone - Web static files:
 
 |   **File**   |   **Description**   |
 | -------------- | --------------------- |
@@ -27,11 +28,11 @@ AirBnB clone - The console files:
 #### [0. Inline styling](./0-index.html)
 * This is an HTML page that displays a header and a footer.
 #### [1. Head styling](./1-index.html)
-* This is an HTML page that displays a header and a footer by using the style tag in the head tag (same as 0-index.html)
+* This is an HTML page that displays a header and a footer by using the style tag in the head tag.
 #### [2. CSS files](./2-index.html)
-* This is an HTML page that displays a header and a footer by using CSS files (same as 1-index.html)
+* This is an HTML page that displays a header and a footer by using CSS files.
 #### [3. Zoning done!](./3-index.html)
-* This is an HTML page that displays a header and footer by using CSS files (same as 2-index.html)
+* This is an HTML page that displays a header and footer by using CSS files.
 #### [4. Search!](./4-index.html)
 * This is an HTML page that displays a header, footer and a filters box with a search button.
 #### [5. More filters](./5-index.html)
@@ -43,7 +44,7 @@ AirBnB clone - The console files:
 #### [8. More details](./8-index.html)
 * This is an HTML page that displays a header, a footer, a filter box (dropdown list) and the result of the search.
 ---
-### Authors
+### Author
 #### Luz Sánchez
 - Github: [zulsb](https://github.com/zulsb)
 - Twitter: [@LuzSanchezB](https://twitter.com/LuzSanchezB)
