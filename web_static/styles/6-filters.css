@@ -1,3 +1,4 @@
+/* Filters class style */
 .filters{
 background-color: #FFFFFF;
 height: 70px;
@@ -7,6 +8,7 @@ border-radius: 4px;
 position: relative;
 }
 
+/* Button tag style */
 button{
 font-size: 18px;
 background-color: #FF5A5F;
@@ -20,10 +22,12 @@ top: 10px;
 position: absolute;
 }
 
+/* Button tag in hover style */
 button:hover{
 opacity: 90%;
 }
 
+/* Locations class style */
 .locations{
 height: 100%;
 width: 25%;
@@ -31,12 +35,14 @@ border-right: 1px solid #DDDDDD;
 float: left;
 }
 
+/* Amenities class style */
 .amenities{
 height: 100%;
 width: 25%;
 float: left;
 }
 
+/* Filters class style in text h3 */
 .filters div h3{
 font-weight: 600;
 padding-left: 20%;
@@ -44,6 +50,7 @@ line-height: 10%;
 margin-top: 9%;
 }
 
+/* Filters class style in text h4 */
 .filters div h4{
 font-weight: 400;
 font-size: 14px;
@@ -51,6 +58,7 @@ padding-left: 20%;
 line-height: 10%;
 }
 
+/* popover class style */
 .popover{
 visibility: hidden;
 background-color: #FAFAFA;
@@ -62,6 +70,7 @@ position: relative;
 z-index: 1;
 }
 
+/* popover class style in list h2 */
 .popover li h2{
 font-size: 16px;
 padding: 0;
@@ -69,32 +78,31 @@ margin: 0;
 margin-left: -5%;
 }
 
-.popover_list{
-padding:0px;
-margin:0px;
-padding-left: 10%;
-}
-
+/* li tag style */
 li{
 list-style-type: none;
 padding-bottom: 5%;
 }
 
+/* ul tag style */
 ul{
 padding-top: 30px;
 padding-left: 48px;
 }
 
+/* item class style */
 .item{
 left: -42px;
 top: -28px;
 position: relative;
 }
 
+/* locations class hover style */
 .locations:hover >.popover{
 visibility: visible;
 }
 
+/* amenities class hover style */
 .amenities:hover >.popover{
 visibility: visible;
 }
