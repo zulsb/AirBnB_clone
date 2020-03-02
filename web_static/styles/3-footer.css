@@ -6,6 +6,6 @@ width: 100%;
 border-top: 1px solid #CCCCCC;
 text-align: center;
 line-height: 60px;
-position: fixed;
+position: absolute;
 bottom: 0%;
 }
